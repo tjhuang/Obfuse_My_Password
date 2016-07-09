@@ -1,0 +1,23 @@
+{
+	"version": "v1.0",
+	"password": {
+		"facebook": {
+			"accound": "alice.huang@gmail.com"
+			"salt": "Facebook Website",
+			"length": 20,
+			"words": "[a-zA-Z0-9-_]",
+			"lowercase": true,
+			"uppercase": true,
+			"digit": true
+		},
+		"twitter": {
+			"accound": "alice.huang@gmail.com"
+			"salt": "Twitter Website"
+			"length": 12,
+			"words": "[a-zA-Z0-9-_]",
+			"lowercase": true,
+			"uppercase": true, 
+			"digit": true
+		}
+	}
+}
